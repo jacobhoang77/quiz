@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h3>GOOD MORNING, GOOD AFTERNOON AND GOOD NIGHT - WELCOME TO FOOD'S QUIZ</h3>
+<div id="login-section">
+    <input type="text" id="username" placeholder="Enter username">
+    <input type="text" id="security-code" placeholder="2^2 + 2 = ?">
+    <button onclick="startQuiz()">Start Quiz</button>
+</div>
+
+<div id="quiz-section" style="display: none;">
+    <div id="question"></div>
+    <div id="choices"></div>
+    <div id="feedback"></div>
+    <div id="progress-bar"></div>
+</div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
